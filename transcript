@@ -1,0 +1,107 @@
+# Compile of full_adder.v failed with 1 errors.
+# Compile of full_adder.v was successful.
+# Compile of top_module.v failed with 1 errors.
+# Compile of top_module.v failed with 2 errors.
+# Compile of top_module.v failed with 21 errors.
+# Compile of top_module.v failed with 2 errors.
+# Compile of top_module.v failed with 2 errors.
+# Compile of top_module.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of top_module.v was successful.
+# Compile of test.v failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of full_adder.v was successful.
+# Compile of top_module.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of full_adder.v was successful.
+# Compile of top_module.v was successful.
+# Compile of test.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of full_adder.v was successful.
+# Compile of top_module.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of test.v failed with 2 errors.
+# Compile of test.v was successful.
+vsim -voptargs=+acc work.test
+# vsim -voptargs="+acc" work.test 
+# Start time: 16:11:03 on Oct 20,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# Loading work.top(fast)
+# Loading work.full_adder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f4 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f7 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 59
+add wave -position insertpoint  \
+sim:/test/x_tb \
+sim:/test/y_tb \
+sim:/test/z_tb \
+sim:/test/s_top_tb \
+sim:/test/c_top_tb \
+sim:/test/x
+run
+run
+run
+run
+run
+# Compile of test.v failed with 1 errors.
+# Compile of test.v was successful.
+# Compile of test.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Loading work.top(fast)
+# Loading work.full_adder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f4 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f7 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 59
+run
+# Compile of test.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Loading work.top(fast)
+# Loading work.full_adder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in1'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f4 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in3'. The port definition is at: C:/Users/CND/Desktop/midterm/full_adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test/t0/f7 File: C:/Users/CND/Desktop/midterm/top_module.v Line: 59
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all

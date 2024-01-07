@@ -1,0 +1,15 @@
+C:/Users/CND/Desktop/midterm/full_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/CND/Desktop/midterm/full_adder.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Users/CND/Desktop/midterm/top_module.v {1 {vlog -work work -vopt -stats=none C:/Users/CND/Desktop/midterm/top_module.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}
